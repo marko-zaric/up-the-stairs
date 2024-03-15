@@ -1,0 +1,7 @@
+uniform 
+trys: 10000
+max_f: 1000.0
+min_f: 50.0
+max_angle: 89.0
+min_angle: 1.0
+Same Start

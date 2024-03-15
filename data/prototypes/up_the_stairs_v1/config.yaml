@@ -1,0 +1,17 @@
+# if exlude condition is false then the sample is excluded
+exclude-condition: robot_in_map
+# collection of samples to use for clustering
+data: motion_samples.csv #11_02_2023_12_31_03.csv
+# how many prototypes per cluster
+prototypes-per-cluster: 5
+# number of samples to use in for the prototype generation
+number-samples: 2000
+# list the action dimensions
+motion-dimensions: 
+  - magnitude
+  - angle
+# list the effect dimensions you want to cluster by
+cluster-by:
+  - - dy
+    - dz
+  

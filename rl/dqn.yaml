@@ -1,0 +1,24 @@
+mode: eval   # train
+episode_length: 50
+prototypes: effect_based_rgng 
+train:
+  total_timesteps: 30000
+  eval_frequency: 500
+  seeds:
+    - 42
+    - 2
+    - 3
+    - 4
+    # - 5
+    # - 6
+    # - 7
+    # - 8
+    # - 9
+    # - 10
+eval:
+  model_folder: 
+    - dqn_01_30_2024_18_40_07
+    - dqn_01_31_2024_20_56_38
+    - dqn_02_01_2024_21_43_42
+  prototypes: effect_based_rgng #uniform_prototypes 
+  runs: 5

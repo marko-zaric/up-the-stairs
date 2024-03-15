@@ -1,0 +1,4 @@
+string env_name
+string name_file
+---
+bool finished

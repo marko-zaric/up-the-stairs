@@ -1,0 +1,262 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='stairs'>
+    <static>true</static>
+    <link name='first_step'>
+      <pose>0.0 0 0 0 0 0</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 0.3</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 0.3</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='second_step'>
+      <pose relative_to="first_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 0.6</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 0.6</size>
+          </box>
+        </geometry>
+
+      </collision>
+    </link>
+    <link name='third_step'>
+      <pose relative_to="second_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 0.9</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 0.9</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='forth_step'>
+      <pose relative_to="third_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 1.2</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 1.2</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+     <link name='fifth_step'>
+      <pose relative_to="forth_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 1.5</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 1.5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='sixth_step'>
+      <pose relative_to="fifth_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 1.8</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 1.8</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='seventh_step'>
+      <pose relative_to="sixth_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 2.1</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 2.1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='eight_step'>
+      <pose relative_to="seventh_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 2.4</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 2.4</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='9th_step'>
+      <pose relative_to="eight_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 2.7</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 2.7</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='10th_step'>
+      <pose relative_to="9th_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 3.0</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 3.0</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='11th_step'>
+      <pose relative_to="10th_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 3.3</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 3.3</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='12th_step'>
+      <pose relative_to="11th_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 3.6</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 3.6</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='13th_step'>
+      <pose relative_to="12th_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 3.9</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 3.9</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='14th_step'>
+      <pose relative_to="13th_step">0 0.4 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 0.4 4.2</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 0.4 4.2</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <link name='15th_step'>
+      <pose relative_to="14th_step">0 5.2 0.15</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>5 10 4.5</size>
+          </box>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>5 10 4.5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

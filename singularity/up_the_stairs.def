@@ -1,0 +1,16 @@
+BootStrap: docker
+From: osrf/ros:noetic-desktop-full 
+
+%post
+    apt-get -y update
+    # apt-get upgrade -y
+    apt-get install -y software-properties-common
+
+    apt install -y git
+    apt install -y python3-pip
+    apt install -y python3.8-venv
+    apt-get install -y python3-tk
+
+    # ROS
+    apt-get install -y python3-catkin-tools
+    apt install -y ros-noetic-gazebo-ros-control ros-noetic-rospy-message-converter 

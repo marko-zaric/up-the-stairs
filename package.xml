@@ -1,0 +1,32 @@
+<!-- <?xml version="1.0"?> -->
+<package>
+  <name>up_the_stairs</name>
+  <version>1.0.0</version>
+  <description>Package for affordance learning in a simple staircase toy example.
+  </description>
+
+  <maintainer email="m-zaric@hotmail.com">
+    Marko Zaric
+  </maintainer>
+  <license>CC-BY</license>
+
+  <author email="m-zaric@hotmail.com"> Marko Zaric </author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>gazebo_ros_control</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_ros</build_depend>
+
+  <run_depend>gazebo</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf2</run_depend>
+  <run_depend>tf2_ros</run_depend>
+</package>

@@ -1,0 +1,8 @@
+float32 max_force
+float32 min_force
+float32 max_angle
+float32 min_angle
+int32   trys
+string storage_path
+---
+bool finished

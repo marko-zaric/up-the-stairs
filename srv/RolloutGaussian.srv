@@ -1,0 +1,8 @@
+float32 mean_force
+float32 std_force
+float32 mean_angle
+float32 std_angle
+int32   trys
+string storage_path
+---
+bool finished

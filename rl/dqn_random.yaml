@@ -1,0 +1,36 @@
+mode: eval #train
+episode_length: 50
+train:
+  total_timesteps: 30000
+  eval_frequency: 500
+  number_prototypes: 10
+  seeds:
+    - 42
+    - 2
+    - 3
+    - 4
+    # - 5
+    # - 6
+    # - 7
+    # - 8
+    # - 9
+    # - 10
+  parameters:
+    min_magnitude: 50 
+    max_magnitude: 999
+    min_angle: 1
+    max_angle: 89
+run:
+  model_folder: 
+    - dqn_random_01_29_2024_18_38_56
+    - dqn_random_01_30_2024_11_12_47
+    - dqn_random_01_31_2024_08_03_14
+    - dqn_random_02_01_2024_05_16_23
+  seeds: 
+    - 42
+    - 2
+    - 3
+    - 4
+  # number_prototypes: 10
+  runs: 5
+  seed: 42

@@ -4,12 +4,9 @@
 
 This package is a toy example environment simulated in Gazebo with a Gym-Wrapper for effect-centric discrete action learning where the robot is given a continuous action/motion space repertoire and has to learn reliable discrete actions which produce distinct effects in the environment. For more detailed information on the method, see our paper [*Unsupervised Learning of Effective Actions in Robotics*][paper].
 
- <p float="center">
-  <figure>
-        <img src="media/start_position.png" width="30%"/>
-        <img src="media/1_step.png" width="30%"/>
-    </figure> 
-</p>
+Starting position            |  Single Effect class prototypes
+:-------------------------:|:-------------------------:
+![](media/start_position.png)  |  ![](media/1_step.png)
 
 This repository offers two identical simulated environments in Gazebo once with continuous action space and once with the option to pre-set a collection of discrete actions which can be used to test other action space discretization methods.
 

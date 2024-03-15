@@ -6,8 +6,8 @@ This package is a toy example environment simulated in Gazebo with a Gym-Wrapper
 
  <p float="center">
   <figure>
-        <img src="media/start_position.png" width="49%"/>
-        <img src="media/1_step.png" width="49%"/>
+        <img src="media/start_position.png" width="30%"/>
+        <img src="media/1_step.png" width="30%"/>
     </figure> 
 </p>
 

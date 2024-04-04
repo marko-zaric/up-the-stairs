@@ -80,5 +80,5 @@ This project is licensed under a Creative Commons Attribution 4.0 International 
 This research was funded in whole or in part by the Austrian Science Fund (FWF) [ELSA, DOI: 10.55776/I5755]. For open access purposes, the author has applied a CC BY public copyright license to any author accepted manuscript version arising from this submission.
 
 
-[paper]: <https://airov.at>
+[paper]: <https://arxiv.org/abs/2404.02728>
 [actprogen]: <https://github.com/marko-zaric/action-prototype-gen>
